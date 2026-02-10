@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cart {
+
+
+    div {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .cart1 {
+        background: blue;
+        left: 50%;
+        bottom: 50%;
+        z-index: 1;
+    }
+    .cart2 {
+        background: red;
+        left: 45%;
+        right: 45%;
+        z-index: -3;
+    }
+    .cart3 {
+        background: aqua;
+        left: 40%;
+        right: 40%;
+        z-index: -4;
+    }
+    .cart4 {
+        background: yellow;
+        left: 35%;
+        right: 35%;
+        z-index: -5;
+    }
+}
